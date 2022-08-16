@@ -1,19 +1,32 @@
 .post-container {
-    background: #d4dcc2;
+    background: #3F4E4F;
     display: flex;
     flex-direction: column;
-    padding: 3%;
-    margin: 0 2%;
+    padding: 6%;
+    margin: 0 3%;
+    border-radius: 1rem;
 }
 
 .heading {
-    height: 126px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+    line-height: 2em;
+    font-weight: normal;
+    height: 4rem;
+    margin: 0 auto;
+    color: #fff;
 }
 
 .image {
-    width: 100%;
-    height: 210px;
+    max-width: 100%;
+    min-height: auto;
+    border-radius: .5rem;
+}
+
+.icons {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-content {
+    color: #9aa6acf9;
 }
